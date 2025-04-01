@@ -19,3 +19,6 @@ Alternatively, the results suggest an absence of hydraulic gold mining, concludi
 I am currently monitoring a known gold mining site to the west of the AOI to determine the optimal thresholds for the filters to be applied during post-processing of the Sentinel-1 timeseries mosaic. This will aid a more definative answer, and help the accuracy of 
 
 
+## Splitmap
+
+<iframe src="AOIsplitmap.html" width="100%" height="500px"></iframe>
