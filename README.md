@@ -1,7 +1,7 @@
 # Gold Mining Detection in Prey Lang Wildlife Sanctuary Using Satellite Imagery
 
 # Summary
-The aim of this project is to detect and map gold mines that have emerged deep within the boundaries of a wildlife sanctuary. I used GIS techniques and satellite imagery to find the patterns, or scars, gold mines leave on the landscape, and tell the story of Prey Lang through visualisations.
+This project focuses on detecting the presence of gold mining activities deep within the Prey Lang Wildlife Sanctuary. The goal was to uncover the environmental scars left by gold mining operations and create visualizations that narrate the story of Prey Lang’s transformation.
 
 # Approach
 
@@ -18,7 +18,7 @@ Changing the only the coordinates of the AOI allows the code to be transferable 
       * Created a GIF animation showing cloud free composites of the AOI (Fig 1).
 
   * Sentinel-1 SAR: I identifed the images suitable for the construction of a time series of preprocessed datasets.
-      * These images, with a resolution of 5 metres, allow for near real-time monitoring and can penetrate through clouds, making them suitable for rainforest environments. SAR imagery is         effective for detecting changes in soil structure and moisture content, which are key indicators of gold mining activity. This is due to the use of water in extraction processes,          the accumulation of chemical pools, and the significant land deformation that are typically a consequence of the operations.
+      * These images, with a resolution of 5 metres, allow for near real-time monitoring and can penetrate through clouds, making them suitable for rainforest environments. SAR imagery is effective for detecting changes in soil structure and moisture content, which are key indicators of gold mining activity. This is due to the use of water in extraction processes, the accumulation of chemical pools, and the significant land deformation that are typically a consequence of the operations.
 
 3. Data Analysis:
 
@@ -37,6 +37,8 @@ Figure 1: Timelapse of Sentinel 2 images showing annual changes in the AOI from 
 
 Figure 2: Known Mining concessions cover 42% of the Prey Lang Wildlife Sanctuary. 250000 hactares of the largest lowland rainforest in mainland Southeast Asia, Home to 80% of the native tree species an many threatened species of plants and animals. Mining companies publications are the main source of data. Government data is sparce, which is cause for concern. 
 
+
+# Results
 
 Mining operations in the region are well-documented by journalists, highlighting the environmental and social pressures, and revealing links between concession owners, government officials, and potential corruption. A mining concession database confirms the prevalence of gold mining in the southern part of Prey Lang, and when overlaid on a map (FIG 2), it shows that the AOI straddles the border of an established gold mining concession.
 
@@ -57,30 +59,20 @@ Figure 3: SAR change detection results after applying the Q test algorythm. The 
 Figure 4: Results after filtering to eliminate false positives. 
 
 
-# Discussion
-Forest loss in Prey Lang is accelerating. The wildlife sanctuary was brought into law in 2016. The primary colour on the forest loss map is red, indicating the most forset loss happening post creation of the protected area. Within older concessions have been granted, that were put into the database in 2016, deforestation is devastating. ******Bla bla (2024)******** found that Economic Land Concessions were a predominant driver of deforestation in Cambodia and influenced the trajectory of illegal forest conversion in protected areas. Large scale mining practices exasserbate illegal logging, through access roads being opened up to remote forests. Mining concessions promote land grabbing and human rights violations, mainly those of indigionous peoples. Concerns over toxic waste and biodiversity loss are not being properly managed. Due to the high taxable income, governements are granting concessions in protected areas, which threatens the work of REDD+ schemes and community forest management. With a direct line to higher gov, local gov are being bypassed. 
+# The problem of concessions
 
-Cambodian gold mining history
-
-100s years – small scale ‘artisanal’ mining. Low social and environmental impact. Traditional non-chemical techniques applied
-
-1980’s – gold rush in the north west safe region. 
-By turn of century the process has become more mechanised and scaled up.
-
-2007 – government aligned its future income the coorportisation of mining practices, to help alleviate its reliance on foregn aid and loans. This new revenue stream lined the pockets of the party-elite instead of contributing to Cambodian peoples health, infrastructure and economy. Evidenced in 2023 when the Aus National Court fined the previous owner of a large mining concession in Mondulkiri province fined $10 million for bribing Cambodian officials. This is almost certainly not an isolated issue. 
-
-New gold rush due to geopolitical instability as the world becomes ever more uncertain. People turn to gold for safety and security.  2024 gold price rise by 28%. 
-
-
-What effects mining concessions.
-
-Evidence of bribery in the gov, dismantling the effectiveness of protected areas set by governemtn.
-
-High demand and advanced remote prospecting technology. Opens up remote areas to vulnerability that were once hidden by difficult terrain.
-
-Area of interest is within the bounds of Prey Lang, and outside of the known mining concessions that have been granted. Sentinel 2 timelapse video shows the major mining operation pop up around May 2022. Dirt roads cut through the vegetation leading to large round excavation sites where shifting turquoise pools appear within them. The roads that lead there come from the east, where tree plantation is. This concession licence is shroud in contention as it replaced a huge area of the Prey Lang Sanctuary. It is reported that timber procured from illegal practices is processed through the plantation company and sold as sustainably sourced. Roads radiate out of the plantation east into the wildlife sanctuary, facilitating unmanaged and damaging resource extraction.
-
+Forest loss in Prey Lang is accelerating, particularly in the south. The wildlife sanctuary was designated as protected in 2016. Despite the sanctuary’s legal protection, deforestation continues due to mining activities and other resource extractions. Research has shown that Economic Land Concessions (ELCs) are significant drivers of deforestation in Cambodia (Bla bla, 2024), and mining operations exacerbate illegal logging by creating access roads into remote forest areas. Mining concessions promote land grabbing and human rights violations, mainly those of indigionous peoples. Concerns over toxic waste and biodiversity loss are also not being properly managed. 
 
 ![Screenshot 2025-04-02 at 11 44 36](https://github.com/user-attachments/assets/1b9f883d-cbc6-4644-8851-ac8bc228810b)
+
+Figure 5: historical Forest loss of South Prey Lang. The primary colour is red, indicating a higher forest loss post creation of the protected area.
 ![Screenshot 2025-04-02 at 11 45 14](https://github.com/user-attachments/assets/c3a4e019-b9d3-4a5b-a43d-8d693f854368)
+Figure 6: Forest loss over Prey Lang from 2000 - 2024
+
+# Why are new mines cropping up in a protected area?
+The historical context of Cambodia’s gold mining industry shows a transition from small-scale artisanal mining to large-scale mechanized operations. While this shift has led to economic benefits, it has also facilitated corruption, human rights violations, and environmental degradation. The 2007 Cambodian government aligned its future income the coorportisation of mining practices, to help alleviate its reliance on foregn aid and loans. This new revenue stream lined the pockets of the party-elite instead of contributing to Cambodian peoples health, infrastructure and economy. Evidenced in 2023 when the Australian National Court fined the previous owner of a large mining concession in Mondulkiri Province, Cambodia $10 million for bribing Cambodian officials. This is almost certainly not an isolated issue. In recent times, global geopolitical instability has fueled a new gold rush, with prices soaring by 28% in 2024, further intensifying mining activity.
+
+
+![Screenshot 2025-04-02 at 13 12 51](https://github.com/user-attachments/assets/d8ae8dde-62fb-4829-b96e-b554c11fbf87)
+Figure 7: older concessions show the potential damage to biodiversity 10 years can have. New concessions that are deeper in the forest may follow this trend.
 
