@@ -61,7 +61,7 @@ Figure 4: Results after filtering to eliminate false positives.
 
 # The problem of concessions
 
-Forest loss in Prey Lang is accelerating, particularly in the south. The wildlife sanctuary was designated as protected in 2016. Despite the sanctuary’s legal protection, deforestation continues due to mining activities and other resource extractions. Research has shown that Economic Land Concessions (ELCs) are significant drivers of deforestation in Cambodia (Bla bla, 2024), and mining operations exacerbate illegal logging by creating access roads into remote forest areas. Mining concessions promote land grabbing and human rights violations, mainly those of indigionous peoples. Concerns over toxic waste and biodiversity loss are also not being properly managed. 
+Forest loss in Prey Lang is accelerating, particularly in the south. The wildlife sanctuary was designated as protected in 2016. Despite the sanctuary’s legal protection, deforestation continues due to mining activities and other resource extractions. Research has shown that Economic Land Concessions (ELCs) are significant drivers of deforestation in Cambodia (Pauly et al., 2022), and mining operations exacerbate illegal logging by creating access roads into remote forest areas. Mining concessions promote land grabbing and human rights violations, mainly those of indigionous peoples. Concerns over toxic waste and biodiversity loss are also not being properly managed. 
 
 ![Screenshot 2025-04-02 at 11 44 36](https://github.com/user-attachments/assets/1b9f883d-cbc6-4644-8851-ac8bc228810b)
 
@@ -75,4 +75,13 @@ The historical context of Cambodia’s gold mining industry shows a transition f
 
 ![Screenshot 2025-04-02 at 13 12 51](https://github.com/user-attachments/assets/d8ae8dde-62fb-4829-b96e-b554c11fbf87)
 Figure 7: older concessions show the potential damage to biodiversity 10 years can have. New concessions that are deeper in the forest may follow this trend.
+
+
+# Citations
+
+Villa, L. et al. (2024). Monitoring Gold Mining Activity Using SAR. In: Cardille, J.A., Crowley, M.A., Saah, D., Clinton, N.E. (eds) Cloud-Based Remote Sensing with Google Earth Engine. Springer, Cham. 
+
+Pauly, M., Crosse, W. & Tosteson, J. High deforestation trajectories in Cambodia slowly transformed through economic land concession restrictions and strategic execution of REDD+ protected areas. Sci Rep 12, 17102 (2022)
+
+
 
