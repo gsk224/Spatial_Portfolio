@@ -1,4 +1,4 @@
-# Gold Mining Detection in Prey Lang Wildlife Sanctuary Using Satellite Imagery
+# Gold Mining Detection in Prey Lang Wildlife Sanctuary Using Sentinel-1 Change Detection
 
 # Summary
 This project focuses on detecting the presence of gold mining activities deep within the Prey Lang Wildlife Sanctuary. The goal was to uncover the environmental scars left by gold mining operations and create visualizations that narrate the story of Prey Lang’s transformation.
